@@ -51,7 +51,7 @@ def processcommand(c):
             print("Please specify a song to play.")
  
     elif "news" in c.lower(): 
-        r=requests.get("https://newsapi.org/v2/everything?q=tesla&from=2024-12-05&sortBy=publishedAt&apiKey=d94c47783b7c4edcb145ddb5df7db280")
+        r=requests.get("add your api")
         if r.status_code ==200:
             #parse the JSON response
             data =r.json()
