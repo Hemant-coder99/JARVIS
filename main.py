@@ -9,11 +9,11 @@ import pyjokes
  
 recognizer =sr.Recognizer()# it is an class which help to take speech recognizer function
 engine = pyttsx3.init()#it iniatialize pyttsx3
-newsapi="d94c47783b7c4edcb145ddb5df7db280"
+newsapi="add your api"
 
 def aiprocess(command):
     client = OpenAI(
-        api_key="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"
+        api_key="add your api"
     )
 
     completion = client.chat.completions.create(
